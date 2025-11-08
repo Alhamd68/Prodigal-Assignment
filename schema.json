@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "required": ["payment_attempted", "customer_intent", "customer_sentiment", "agent_performance", "timestamped_events"],
+  "additionalProperties": false,
+  "properties": {
+    "payment_attempted": { "type": "boolean" },
+    "customer_intent": { "type": "boolean" },
+    "customer_sentiment": {
+      "type": "object",
+      "required": ["classification", "description"],
+      "additionalProperties": false,
+      "properties": {
+        "classification": { "type": "string", "enum": ["Satisfied", "Neutral", "Frustrated", "Hostile"] },
+        "description": { "type": "string", "minLength": 8, "maxLength": 300 }
+      }
+    },
+    "agent_performance": { "type": "string", "minLength": 20, "maxLength": 500 },
+    "timestamped_events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["timestamp", "event_type", "description"],
+        "additionalProperties": false,
+        "properties": {
+          "timestamp": { "type": ["string","null"] },
+          "event_type": { "type": "string", "enum": ["disclosure","offer_negotiation","payment_setup_attempt","consumer_frustration","consumer_hostility"] },
+          "description": { "type": "string", "minLength": 5, "maxLength": 200 }
+        }
+      }
+    },
+    "payment_validation_result": {
+      "type": "object",
+      "required": ["called", "valid", "reason", "status_code"],
+      "additionalProperties": false,
+      "properties": {
+        "called": { "type": "boolean", "description": "True if the validation tool was suggested and run." },
+        "valid": { "type": "boolean", "description": "True if the credentials were valid according to the API ground truth." },
+        "reason": { "type": "string", "description": "The message from the API." },
+        "status_code": { "type": "integer", "description": "The simulated HTTP status code (e.g., 200, 422)." }
+      }
+    }
+  }
+}

@@ -1,0 +1,296 @@
+[
+  {
+    "role": "Assistant",
+    "stime": 0,
+    "utterance": "Thank you for calling Recovery Services Inc. I'm Daniel, a virtual agent. How can I assist you?",
+    "etime": 8
+  },
+  {
+    "role": "User",
+    "stime": 8,
+    "utterance": "I want to pay off my account.",
+    "etime": 11
+  },
+  {
+    "role": "Assistant",
+    "stime": 11,
+    "utterance": "I can help you with that. May I have your phone number?",
+    "etime": 15
+  },
+  {
+    "role": "User",
+    "stime": 15,
+    "utterance": "Nine seven three eight eight eight one two three four.",
+    "etime": 21
+  },
+  {
+    "role": "Assistant",
+    "stime": 21,
+    "utterance": "Thank you. Confirming nine seven three eight eight eight one two three four?",
+    "etime": 27
+  },
+  {
+    "role": "User",
+    "stime": 27,
+    "utterance": "Yes.",
+    "etime": 28
+  },
+  {
+    "role": "Assistant",
+    "stime": 28,
+    "utterance": "And your full name?",
+    "etime": 30
+  },
+  {
+    "role": "User",
+    "stime": 30,
+    "utterance": "James Anderson.",
+    "etime": 33
+  },
+  {
+    "role": "Assistant",
+    "stime": 33,
+    "utterance": "Your date of birth?",
+    "etime": 35
+  },
+  {
+    "role": "User",
+    "stime": 35,
+    "utterance": "December twenty fifth nineteen seventy seven.",
+    "etime": 41
+  },
+  {
+    "role": "Assistant",
+    "stime": 41,
+    "utterance": "Thank you, James. This is an attempt to collect a debt. Your current balance is eight hundred forty three dollars and fifty cents. Can you pay this today?",
+    "etime": 52
+  },
+  {
+    "role": "User",
+    "stime": 52,
+    "utterance": "Yes, I have my card ready. What's this debt for, though?",
+    "etime": 57
+  },
+  {
+    "role": "Assistant",
+    "stime": 57,
+    "utterance": "This is from a personal loan account with QuickCash Lending that defaulted in February of twenty twenty five. Does that sound familiar?",
+    "etime": 67
+  },
+  {
+    "role": "User",
+    "stime": 67,
+    "utterance": "Oh yeah, the payday loan. I forgot about that.",
+    "etime": 71
+  },
+  {
+    "role": "Assistant",
+    "stime": 71,
+    "utterance": "Yes, it's been several months now, and interest has accrued, which is why the balance is higher than the original loan amount.",
+    "etime": 80
+  },
+  {
+    "role": "User",
+    "stime": 80,
+    "utterance": "How much was the original loan?",
+    "etime": 83
+  },
+  {
+    "role": "Assistant",
+    "stime": 83,
+    "utterance": "The original loan was five hundred dollars. With interest and fees, it's now eight hundred forty three dollars and fifty cents.",
+    "etime": 91
+  },
+  {
+    "role": "User",
+    "stime": 91,
+    "utterance": "Wow, that's almost double. Can you waive some of those fees?",
+    "etime": 96
+  },
+  {
+    "role": "Assistant",
+    "stime": 96,
+    "utterance": "Let me check what I can do. For immediate payment today, I can reduce the balance to seven hundred fifty dollars even. That would save you almost a hundred dollars. Would that work for you?",
+    "etime": 110
+  },
+  {
+    "role": "User",
+    "stime": 110,
+    "utterance": "I guess that's better than nothing.",
+    "etime": 114
+  },
+  {
+    "role": "Assistant",
+    "stime": 114,
+    "utterance": "It's a significant savings. Would you like to proceed with the payment of seven hundred fifty dollars?",
+    "etime": 121
+  },
+  {
+    "role": "User",
+    "stime": 121,
+    "utterance": "Yeah, let's do it.",
+    "etime": 123
+  },
+  {
+    "role": "Assistant",
+    "stime": 123,
+    "utterance": "Great. We accept Visa and Mastercard. What's your card number?",
+    "etime": 128
+  },
+  {
+    "role": "User",
+    "stime": 128,
+    "utterance": "Four nine two seven six five four three two one zero.",
+    "etime": 136
+  },
+  {
+    "role": "Assistant",
+    "stime": 136,
+    "utterance": "Thank you. Let me verify that. Can you repeat the card number for me?",
+    "etime": 141
+  },
+  {
+    "role": "User",
+    "stime": 141,
+    "utterance": "Four nine two seven six five four three two one zero.",
+    "etime": 148
+  },
+  {
+    "role": "Assistant",
+    "stime": 148,
+    "utterance": "I'm sorry, that appears to be only eleven digits. Credit card numbers must be between twelve and sixteen digits. Can you verify the complete number?",
+    "etime": 159
+  },
+  {
+    "role": "User",
+    "stime": 159,
+    "utterance": "That's all the numbers on my card. Let me look again.",
+    "etime": 164
+  },
+  {
+    "role": "Assistant",
+    "stime": 164,
+    "utterance": "Take your time. Sometimes the numbers can be worn off or hard to read.",
+    "etime": 170
+  },
+  {
+    "role": "User",
+    "stime": 170,
+    "utterance": "No, I'm looking at it right now. There's only eleven digits. It's an older card.",
+    "etime": 176
+  },
+  {
+    "role": "Assistant",
+    "stime": 176,
+    "utterance": "I understand, but unfortunately our system requires a valid card number between twelve and sixteen digits to process the payment. The card number you provided is too short. Do you have another card you could use?",
+    "etime": 190
+  },
+  {
+    "role": "User",
+    "stime": 190,
+    "utterance": "No, that's my only card right now. Why won't it work? I've used this card before.",
+    "etime": 197
+  },
+  {
+    "role": "Assistant",
+    "stime": 197,
+    "utterance": "Eleven digit card numbers aren't standard for Visa or Mastercard. It's possible there's a printing error on your card, or some digits have worn off over time. I recommend contacting your card issuer to verify the correct number.",
+    "etime": 213
+  },
+  {
+    "role": "User",
+    "stime": 213,
+    "utterance": "This is frustrating. I'm trying to pay and you're telling me I can't.",
+    "etime": 218
+  },
+  {
+    "role": "Assistant",
+    "stime": 218,
+    "utterance": "I completely understand your frustration, James. We definitely want to accept your payment. The issue is that our payment system has security requirements, and it won't accept a card number that doesn't meet standard credit card formats.",
+    "etime": 233
+  },
+  {
+    "role": "User",
+    "stime": 233,
+    "utterance": "So what am I supposed to do?",
+    "etime": 236
+  },
+  {
+    "role": "Assistant",
+    "stime": 236,
+    "utterance": "You have a few options. You could contact your bank to verify the correct card number or request a replacement card. Alternatively, if you have a checking account, we could explore setting up an ACH payment, though that would take a few business days to process.",
+    "etime": 253
+  },
+  {
+    "role": "User",
+    "stime": 253,
+    "utterance": "I don't want to wait days. I wanted to take care of this today.",
+    "etime": 258
+  },
+  {
+    "role": "Assistant",
+    "stime": 258,
+    "utterance": "I understand. Unfortunately, without a valid card number, we can't process an immediate payment. However, I can hold the settlement offer of seven hundred fifty dollars for you for one week while you get this sorted out. Would that help?",
+    "etime": 273
+  },
+  {
+    "role": "User",
+    "stime": 273,
+    "utterance": "I guess so. So I have a week to get a new card?",
+    "etime": 278
+  },
+  {
+    "role": "Assistant",
+    "stime": 278,
+    "utterance": "Yes, exactly. The seven hundred fifty dollar settlement will be valid for seven days. After that, the balance would revert to the full eight hundred forty three dollars and fifty cents.",
+    "etime": 289
+  },
+  {
+    "role": "User",
+    "stime": 289,
+    "utterance": "Okay. And when I call back, I just mention this offer?",
+    "etime": 293
+  },
+  {
+    "role": "Assistant",
+    "stime": 293,
+    "utterance": "Yes, when you call back, let them know you spoke with Daniel about a settlement offer on your QuickCash Lending account. They'll be able to see the notes on your account.",
+    "etime": 304
+  },
+  {
+    "role": "User",
+    "stime": 304,
+    "utterance": "Alright. This is annoying, but I'll figure it out.",
+    "etime": 309
+  },
+  {
+    "role": "Assistant",
+    "stime": 309,
+    "utterance": "I appreciate your patience, James. Is there anything else I can help you with today while we're on the line?",
+    "etime": 316
+  },
+  {
+    "role": "User",
+    "stime": 316,
+    "utterance": "No, I just need to deal with this card issue.",
+    "etime": 320
+  },
+  {
+    "role": "Assistant",
+    "stime": 320,
+    "utterance": "Understood. Once you have a valid card number, please call us back at this same number. We're here Monday through Friday, eight AM to eight PM, and Saturdays nine AM to five PM.",
+    "etime": 332
+  },
+  {
+    "role": "User",
+    "stime": 332,
+    "utterance": "Okay, got it. Thanks.",
+    "etime": 334
+  },
+  {
+    "role": "Assistant",
+    "stime": 334,
+    "utterance": "You're welcome. Good luck with getting your card situation resolved, James. We'll talk to you soon.",
+    "etime": 339
+  }
+]
